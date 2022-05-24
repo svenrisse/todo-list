@@ -24,15 +24,15 @@ function renderPage() {
 
     // projects overview
 
-    const projects = document.createElement("div");
-    projects.classList.add("projects");
-    document.querySelector(".content").appendChild(projects);
+    const sideBar = document.createElement("div");
+    sideBar.classList.add("sideBar");
+    document.querySelector(".content").appendChild(sideBar);
 
     // todos overview
 
-    const todos = document.createElement("div");
-    todos.classList.add("todos");
-    document.querySelector(".content").appendChild(todos);
+    const mainContainer = document.createElement("div");
+    mainContainer.classList.add("mainContainer");
+    document.querySelector(".content").appendChild(mainContainer);
 };
 
 export default renderPage;

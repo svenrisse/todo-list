@@ -1,0 +1,16 @@
+.addButton {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 40px;
+    background-color: #A855F7;
+    border: 0;
+    align-self: end;
+    justify-self: end;
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+}
+
+.addButton:active {
+    background-color: #C084FC;
+}
