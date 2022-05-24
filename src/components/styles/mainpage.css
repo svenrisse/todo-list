@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+.content {
+    height: 100vw;
+    width: 100vw;
+    display: grid;
+    grid-template: 5vh 1fr / 30vw 70vw;
+}
+
+.topBar {
+    grid-area: 1 / 1 / 1 / span 2;
+    display: flex;
+    align-items: center;
+    background-color: #A855F7;
+}
+
+.notepadImage {
+    height: 5vh;
+    width: 4vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.projects {
+    background-color: #E5E7EB;
+}
